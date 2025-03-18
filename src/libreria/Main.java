@@ -1,6 +1,10 @@
 
 package libreria;
 
+/**
+ * Programa principal donde añadimos ingresos y compramos un libro usando la clase LibreriaRuizRodriguezMiguelJose2425T4
+ * @author Miguel Jose Ruiz Rodriguez
+ */
 public class Main {
   
     public static void main(String[] args) {
@@ -13,6 +17,11 @@ public class Main {
         añadeIngresoRuizRodriguezMiguelJose2425T4(miLibreriaRuizRodriguezMiguelJose2425T4, "Libro vendido");
     }
 
+    /**
+     * Metodo para Añadir ingresos en el saldo de la libreria
+     * @param miLibreriaRuizRodriguezMiguelJose2425T4
+     * @param concepto 
+     */
     private static void añadeIngresoRuizRodriguezMiguelJose2425T4(LibreriaRuizRodriguezMiguelJose2425T4 miLibreriaRuizRodriguezMiguelJose2425T4, java.lang.String concepto) {
         double ingreso;
         double saldoActual;
@@ -27,7 +36,11 @@ public class Main {
             System.out.println("Fallo al obtener el saldo al ingresar");
         }
     }
-
+    
+    /**
+     * Metodo donde realizamos la compra de el Quijote
+     * @param miLibreriaRuizRodriguezMiguelJose2425T4 
+     */
     private static void comprarQuijoteRuizRodriguezMiguelJose2425T4(LibreriaRuizRodriguezMiguelJose2425T4 miLibreriaRuizRodriguezMiguelJose2425T4) {
         String x;
         int num;
